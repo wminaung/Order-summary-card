@@ -33,7 +33,7 @@ body {
   --Dark-blue: hsl(223, 47%, 23%);
 }
 
-.container {
+.contain {
   width: 300px;
   margin: 0 auto;
   background-color: #fff;
