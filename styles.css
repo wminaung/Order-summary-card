@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("images/pattern-background-desktop.svg");
+  font-family: "Outfit", sans-serif;
+  background-repeat: no-repeat;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-size: fixed;
+  background-color: var(--Pale-blue);
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  font-size: 15px;
+  color: var(--Dark-blue);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+:root {
+  --Pale-blue: hsl(225, 100%, 94%);
+  --Bright-blue: hsl(245, 75%, 52%);
+  /* neutral */
+  --Very-pale-blue: hsl(225, 100%, 98%);
+  --Desaturated-blue: hsl(224, 23%, 55%);
+  --Dark-blue: hsl(223, 47%, 23%);
+}
+
+.container {
+  width: 350px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 2px 8px var(--Pale-blue);
+}
+
+.imageC {
+  width: 100%;
+}
+.imgMain {
+  border-radius: 15px 15px 0 0;
+  width: 100%;
+}
+.param {
+  width: 100%;
+  text-align: center;
+}
+h1 {
+  padding: 20px;
+  font-weight: 900;
+  text-shadow: 0px 1px, 1px 0px, 1px 1px;
+}
+.inp {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  color: var(--Desaturated-blue);
+  font-weight: 600;
+}
+.aww {
+  width: 80%;
+  height: 60px;
+  margin: 0 auto;
+  background-color: var(--Very-pale-blue);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.aww img {
+  width: 15%;
+}
+.aw {
+  margin-right: 60px;
+}
+.aw b {
+  font-weight: 500;
+  text-shadow: 0px 1px, 1px 0px, 1px 1px;
+}
+button {
+  width: 80%;
+  font-size: 15px;
+  color: var(--Very-pale-blue);
+  border-style: none;
+  height: 45px;
+  border-radius: 10px;
+  background-color: var(--Bright-blue);
+  box-shadow: 0px 8px 10px var(--Pale-blue);
+  font-weight: 600;
+  cursor: pointer;
+}
+button:active {
+  opacity: 0.8;
+  box-shadow: 10px 8px 22px var(--Pale-blue);
+}
+
+a {
+  color: var(--Bright-blue);
+  font-weight: 900;
+}
+a:hover {
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+.cancel {
+  padding: 20px;
+  color: var(--Desaturated-blue);
+  font-weight: 700;
+  user-select: none;
+}
+.cancel:hover {
+  color: var(--Dark-blue);
+  cursor: pointer;
+}
+.aw p {
+  color: var(--Desaturated-blue);
+  font-weight: 700;
+}
