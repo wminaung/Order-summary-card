@@ -51,6 +51,7 @@ body {
   text-align: center;
 }
 h1 {
+  font-size: 24px;
   padding: 20px;
   font-weight: 900;
   text-shadow: 0px 1px, 1px 0px, 1px 1px;
@@ -96,8 +97,12 @@ button {
   font-weight: 600;
   cursor: pointer;
 }
-button:active {
+button:hover {
   opacity: 0.8;
+  box-shadow: 10px 8px 22px var(--Pale-blue);
+}
+button:active {
+  opacity: 1;
   box-shadow: 10px 8px 22px var(--Pale-blue);
 }
 
